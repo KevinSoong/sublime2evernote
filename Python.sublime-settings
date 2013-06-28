@@ -1,0 +1,11 @@
+{
+    "path222": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+    "env222":
+    {
+        "PYTHONPATH222":"./lib",
+        "test":"/usr/local/lib/python:/usr/local/Cellar/python/2.7.2/lib/python2.7/site-packages"
+    },
+    "cmd222": ["python", "-u", "$file"],
+    "file_regex222": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector222": "source.python"
+}
