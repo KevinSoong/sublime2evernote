@@ -1,0 +1,15 @@
+[
+    { "caption": "-" },
+    {
+        "command":"save_to_evernote",
+        "caption":"Save to Evernote"
+    },       
+    {
+        "caption": "Evernote Settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/SublimeEvernote.sublime-settings"
+        }
+    },      
+    { "caption": "-" }
+]

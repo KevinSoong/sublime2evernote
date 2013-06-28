@@ -1,5 +1,14 @@
-[{
-  "id": "sublime2note",
-  "caption": "Sublime to Evernote",
-  "command": "subl2note"
-}]
+[
+    {
+        "id": "sublime2evernote",
+        "caption": "Save to Evernote",
+        "command": "save_to_evernote"
+    },    
+    {
+        "caption": "Evernote Settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Sublime2Note.sublime-settings"
+        }
+    }       
+]

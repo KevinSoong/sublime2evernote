@@ -4,11 +4,11 @@ import sys
 #
 # Force Python to notice local-embedded Evernote API libs
 #
-sys.path.append('lib')
+#sys.path.append('lib')
 
-from evernote.edam.type.ttypes import Note as EvernoteTypeNote
-from evernote.edam.error.ttypes import EDAMUserException
-from evernote.api.client import EvernoteClient
+#from evernote.edam.type.ttypes import Note as EvernoteTypeNote
+#from evernote.edam.error.ttypes import EDAMUserException
+#from evernote.api.client import EvernoteClient
 import sublime, sublime_plugin
 
 class Sublime2Evernote(sublime_plugin.TextCommand):
@@ -19,7 +19,7 @@ title = "test from S2N"
 content = "Lorem ipsum"
 tags = "1, 23123,3, 4214 4242 , 24, "
 
-
+'''
 dev_token = "1S=s1:U=3a529:E=146e0f0c800:C=13f893f9c03:P=1cd:A=en-devtoken:V=2:H=987718ca0ff7773fee5fe6d1e73fe99f"
 client = EvernoteClient(token=dev_token)
 try:
@@ -36,5 +36,5 @@ try:
     note = noteStore.createNote(note)
 except Exception, e:
     print "Note Creation Failed. Error: %d" % e
-
+'''
 
