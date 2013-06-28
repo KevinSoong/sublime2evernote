@@ -11,7 +11,7 @@ import sys
 #from evernote.api.client import EvernoteClient
 import sublime, sublime_plugin
 
-class Sublime2Evernote(sublime_plugin.TextCommand):
+class SaveToEvernote(sublime_plugin.TextCommand):
   def run(self, edit):
     print "Hello World!"
 
