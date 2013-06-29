@@ -5,10 +5,10 @@
         "caption":"Save to Evernote"
     },       
     {
-        "caption": "Evernote Settings",
+        "caption": "Save to Evernote Settings",
         "command": "open_file", "args":
         {
-            "file": "${packages}/User/SublimeEvernote.sublime-settings"
+            "file": "${packages}/User/Sublime2Evernote.sublime-settings"
         }
     },      
     { "caption": "-" }

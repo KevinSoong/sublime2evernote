@@ -1,5 +1,5 @@
 {
-    "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+    "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:./lib",
     "env":
     {
         "PYTHONPATH":"./lib:/usr/local/lib/python:/usr/local/Cellar/python/2.7.2/lib/python2.7/site-packages"

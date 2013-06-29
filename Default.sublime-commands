@@ -8,7 +8,7 @@
         "caption": "Evernote Settings",
         "command": "open_file", "args":
         {
-            "file": "${packages}/User/Sublime2Note.sublime-settings"
+            "file": "${packages}/User/Sublime2Evernote.sublime-settings"
         }
     }       
 ]
